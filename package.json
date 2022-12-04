@@ -1,0 +1,36 @@
+{
+  "name": "senior-typescript",
+  "version": "1.0.0",
+  "description": "高级TypeScript学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zqiangxu/senior-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zqiangxu/senior-typescript/issues"
+  },
+  "homepage": "https://github.com/zqiangxu/senior-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "eslint": "7.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "@tencent/eslint-config-imweb": "^1.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "prettier": "^2.6.2",
+    "prettier-eslint": "^13.0.0",
+    "react": "^17.0.2",
+    "react-hooks": "^1.0.1"
+  }
+}
