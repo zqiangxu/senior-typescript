@@ -11,3 +11,5 @@ const promise3 = new Promise<string>((resolve, reject) => {
 
 // expected to be `Promise<[number, 42, string]>`
 const p = PromiseAll([promise1, promise2, promise3] as const);
+
+export { PromiseAll };
