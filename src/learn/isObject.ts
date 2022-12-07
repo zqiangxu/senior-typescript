@@ -20,3 +20,9 @@ type stringK = keyof string;
 type IsNotObjectTest4 = IsNotObject<string>;
 
 type IsNotObjectTest5 = IsNotObject<{ a: number; b: number }>;
+
+// ------
+
+type IsNotObject2<T> = T extends {} ? false : true;
+
+export { IsNotObject2 };
