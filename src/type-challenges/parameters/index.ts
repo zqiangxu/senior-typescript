@@ -4,6 +4,8 @@ const baz = (): void => {};
 
 type MyParameters<T> = T extends (...params: infer P) => any ? P : never;
 
-type MyParametersResult = MyParameters<typeof foo>;
-type MyParametersResult2 = MyParameters<typeof bar>;
-type MyParametersResult3 = MyParameters<typeof baz>;
+type ParametersResult = MyParameters<typeof foo>;
+type ParametersResult2 = MyParameters<typeof bar>;
+type ParametersResult3 = MyParameters<typeof baz>;
+
+export { MyParameters };

@@ -18,3 +18,5 @@ type BestFirst<T extends any[]> = T extends [infer head, ...any[]] ? head : neve
 // => never
 type head4 = BestFirst<arr3>;
 type head5 = BestFirst<arr1>;
+
+export { First, BestFirst };

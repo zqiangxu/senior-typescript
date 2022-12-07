@@ -5,3 +5,5 @@ type TupleToObject<T extends readonly any[]> = {
 };
 
 type result = TupleToObject<typeof tuple>;
+
+export { TupleToObject };

@@ -17,3 +17,5 @@ type isPillarMen3 = BestIncludes<['Kars', 'Esidisi', 'Wamuu', 'Santana'], 'Diao'
 type isPillarMen4 = BestIncludes<['Kars', 'Esidisi', 'Wamuu', 'Santana'], 'Diao' | 'Wamuu'>;
 
 // 如果 isPillarMen4 为 false . 需要怎么处理?
+
+export { SimpleIncludes, BestIncludes };

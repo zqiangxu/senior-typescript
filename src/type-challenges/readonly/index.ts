@@ -13,4 +13,6 @@ const todo: MyReadonly<Todo2> = {
 };
 
 // readonly
-// todo.title = '12';
+todo.title = '12';
+
+export { MyReadonly };

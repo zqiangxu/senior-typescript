@@ -20,3 +20,5 @@ type Result6 = FullMyAwaited<Promise<number>>;
 
 // => number
 type Result7 = FullMyAwaited<Promise<Promise<number>>>;
+
+export { FullMyAwaited };

@@ -1,10 +1,10 @@
-interface MyReadonly2Todo1 {
+interface Todo1 {
   title: string;
   description?: string;
   completed: boolean;
 }
 
-interface MyReadonly2Todo2 {
+interface Todo2 {
   readonly title: string;
   description?: string;
   completed: boolean;
@@ -24,19 +24,23 @@ type MyReadonly2<T, U extends keyof T = keyof T> = Omit<T, U> & {
   readonly [K in U]: T[K];
 };
 
-type MyReadonly2Result1 = MyReadonly2<Readonly<MyReadonly2Todo1>>;
-type MyReadonly2Result2 = MyReadonly2<MyReadonly2Todo1, 'title' | 'description'>;
-type MyReadonly2Result3 = MyReadonly2<MyReadonly2Todo2, 'title'>;
+type Result1 = MyReadonly2<Readonly<Todo1>>;
+type Result2 = MyReadonly2<Todo1, 'title' | 'description'>;
+type Result3 = MyReadonly2<Todo2, 'title'>;
 
-const myReadonly2Todo: MyReadonly2Result2 = {
+const todo: Result2 = {
   title: 'Hey',
   description: 'foobar',
   completed: false,
 };
 
-// 错误，不能修改只读的 title
-myReadonly2Todo.title = 'Hello';
-// 错误，不能修改只读的 description
-myReadonly2Todo.description = 'barFoo';
-// 没问题
-myReadonly2Todo.completed = true;
+// error
+todo.title = 'Hello';
+
+// error
+todo.description = 'barFoo';
+
+// ok
+todo.completed = true;
+
+export { MyReadonly2 };

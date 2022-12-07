@@ -12,8 +12,10 @@ type MyOmit<T, U extends keyof T> = {
   // [Key in Exclude<keyof T, U>]: T[Key];
 };
 
-type OmitResult1 = MyOmit<Todo, 'description'>;
-type OmitResult2 = MyOmit<Todo, 'description' | 'completed'>;
+type Result1 = MyOmit<Todo, 'description'>;
+type Result2 = MyOmit<Todo, 'description' | 'completed'>;
 
 // @ts-expect-error
-type OmitResult3 = MyOmit<Todo, 'description' | 'invalid'>;
+type Result3 = MyOmit<Todo, 'description' | 'invalid'>;
+
+export { MyOmit };

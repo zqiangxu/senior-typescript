@@ -10,7 +10,4 @@ type MyPick<T, U extends keyof T> = {
 
 type TodoPreview = MyPick<Todo, 'title' | 'completed'>;
 
-const Demo: TodoPreview = {
-  title: 'title',
-  completed: true,
-};
+export { MyPick };
