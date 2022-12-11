@@ -15,3 +15,5 @@ type Result7 = Absolute<'-10.2'>;
 type Result8 = Absolute<'-5'>;
 type Result9 = Absolute<-1_000_000n>;
 type Result10 = Absolute<9_999n>;
+
+export { Absolute };
