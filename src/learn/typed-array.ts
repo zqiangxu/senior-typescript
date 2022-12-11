@@ -6,3 +6,5 @@ type TypedArray<T> = T extends any ? T[] : never;
 
 // string[] | number[]
 type typed = TypedArray<string | number>;
+
+export {};

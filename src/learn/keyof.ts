@@ -8,3 +8,5 @@ interface Todo {
 type keys = keyof Todo;
 
 const key: keys = 'title';
+
+export {};

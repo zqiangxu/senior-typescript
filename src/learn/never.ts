@@ -4,3 +4,5 @@ function throwMyException() {
 
 throwMyException();
 console.log('hello world'); // not exception
+
+export {};
