@@ -4,18 +4,6 @@ interface User {
   address: string;
 }
 
-interface UserPartialName {
-  name?: string;
-  age: number;
-  address: string;
-}
-
-interface UserPartialNameAndAge {
-  name?: string;
-  age?: number;
-  address: string;
-}
-
 // 会自动取|
 type PickValidKey<T, U> = U extends keyof T ? U : never;
 
@@ -34,3 +22,5 @@ type r4 = PartialByKeys<User, 'name' | 'unknown'>;
 const a: r1 = { age: 12, address: 'address' };
 const b: r3 = {};
 const c: r4 = { age: 12, address: 'address' };
+
+export { PartialByKeys };
