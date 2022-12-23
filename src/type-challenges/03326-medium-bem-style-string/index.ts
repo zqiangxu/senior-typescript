@@ -14,6 +14,7 @@ type ConcatE<P extends string, M extends string[]> = M extends [
 
 // 非空字符串数组
 type IsNotEmptyStringArray<A extends string[]> = A extends string[] ? (A['length'] extends 0 ? false : true) : false;
+type BestIsNotEmptyStringArray<A extends string[]> = A extends [] ? false : true;
 
 type BEM<B extends string, E extends string[], M extends string[]> = IsNotEmptyStringArray<E> extends true
   ? IsNotEmptyStringArray<M> extends true
@@ -28,4 +29,15 @@ type a = BEM<'btn', ['price', 'pp'], []>;
 type b = BEM<'btn', ['price', 'pp'], ['warning', 'success']>;
 type c = BEM<'btn', [], ['small', 'medium', 'large']>;
 
-export { BEM };
+type Meta = 'Foo' | 'Boo';
+type HelloMeta = `Hello ${Meta}`; // 'Hello Foo' | 'Hello Boo'
+
+type MakeM<M extends string[]> = BestIsNotEmptyStringArray<M> extends true ? `--${M[number]}` : '';
+type MakeE<E extends string[]> = BestIsNotEmptyStringArray<E> extends true ? `__${E[number]}` : '';
+type BestBEM<B extends string, E extends string[], M extends string[]> = `${B}${MakeE<E>}${MakeM<M>}`;
+
+type a1 = BestBEM<'btn', ['price', 'pp'], []>;
+type b1 = BestBEM<'btn', ['price', 'pp'], ['warning', 'success']>;
+type c1 = BestBEM<'btn', [], ['small', 'medium', 'large']>;
+
+export { BEM, BestBEM };
