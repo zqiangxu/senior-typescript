@@ -9,8 +9,8 @@ type A2 = FillRepeatZeroArray<2>; // [0,0]
 type Fibonacci<
   N extends number,
   Fibs extends number[] = [1],
-  MinusOneFibs extends number[] = FillRepeatZeroArray<0>,
-  MinusTwoFibs extends number[] = FillRepeatZeroArray<1>
+  MinusOneFibs extends number[] = [],
+  MinusTwoFibs extends number[] = [0]
 > = Fibs['length'] extends N
   ? // 通过合并数组实现加法
     [...MinusOneFibs, ...MinusTwoFibs]['length']
