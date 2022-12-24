@@ -11,9 +11,7 @@ type Fibonacci<
   Fibs extends number[] = [1],
   MinusOneFibs extends number[] = FillRepeatZeroArray<0>,
   MinusTwoFibs extends number[] = FillRepeatZeroArray<1>
-> = N extends 1
-  ? 1
-  : Fibs['length'] extends N
+> = Fibs['length'] extends N
   ? // 通过合并数组实现加法
     [...MinusOneFibs, ...MinusTwoFibs]['length']
   : // [1, ...Fibs] 用于索引 + 1
@@ -26,5 +24,6 @@ type Result3 = Fibonacci<4>; // 3
 type Result4 = Fibonacci<2>; // 1
 type Result5 = Fibonacci<7>; // 13
 type Result6 = Fibonacci<9>; // 34
+type Result7 = Fibonacci<1>; // 1
 
 export { Fibonacci };
