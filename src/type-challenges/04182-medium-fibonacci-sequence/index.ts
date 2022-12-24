@@ -9,13 +9,13 @@ type A2 = FillRepeatZeroArray<2>; // [0,0]
 type Fibonacci<
   N extends number,
   Fibs extends number[] = [1],
-  MinusOneFibs extends number[] = [0],
-  MinusTwoFibs extends number[] = []
+  CurrentFibs extends number[] = [0],
+  PrevFibs extends number[] = []
 > = Fibs['length'] extends N
-  ? MinusOneFibs['length']
+  ? CurrentFibs['length']
   : // [1, ...Fibs] 用于索引 + 1
     // 更新两个临时的 Fibs . 通过合并数组的长度来表示加法
-    Fibonacci<N, [1, ...Fibs], [...MinusOneFibs, ...MinusTwoFibs], MinusOneFibs>;
+    Fibonacci<N, [1, ...Fibs], [...CurrentFibs, ...PrevFibs], CurrentFibs>;
 
 type Result1 = Fibonacci<3>; // 2
 type Result2 = Fibonacci<8>; // 21
