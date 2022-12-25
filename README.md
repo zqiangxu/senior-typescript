@@ -165,6 +165,8 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-5153%E3%83%BBIndexOf-d9901a" alt="5153・IndexOf"/></a> <a href="./src/type-challenges/05310-medium-join/README.md" target="_blank">
 
+---
+
 ## 未完成
 
 <img src="https://img.shields.io/badge/-5310%E3%83%BBJoin-d9901a" alt="5310・Join"/></a> <a href="./src/type-challenges/05317-medium-lastindexof/README.md" target="_blank">
