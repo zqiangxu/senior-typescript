@@ -4,4 +4,4 @@
 其中 type-challenges 来源于: https://github.com/type-challenges/type-challenges
 
 type-challenges 进度：
-![progress](./static/progress.png)
+![progress](https://github.com/zqiangxu/senior-typescript/blob/main/static/progress.png)
