@@ -137,11 +137,13 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-3376%E3%83%BBInorderTraversal-d9901a" alt="3376・InorderTraversal"/></a> <a href="./src/type-challenges/04179-medium-flip/README.md" target="_blank">
 
+### 2022-12-24
+
 <img src="https://img.shields.io/badge/-4179%E3%83%BBFlip-d9901a" alt="4179・Flip"/></a> <a href="./src/type-challenges/04182-medium-fibonacci-sequence/README.md" target="_blank">
 
 <img src="https://img.shields.io/badge/-4182%E3%83%BBFibonacci%20Sequence-d9901a" alt="4182・Fibonacci Sequence"/></a> <a href="./src/type-challenges/04260-medium-nomiwase/README.md" target="_blank">
 
-<img src="https://img.shields.io/badge/-4260%E3%83%BBAllCombinations-d9901a" alt="4260・AllCombinations"/></a> <a href="./src/type-challenges/04425-medium-greater-than/README.md" target="_blank">
+<img src="https://img.shields.io/badge/-4260%E3%83%BBAllCombinations-d9901a" alt="4260・AllCombinations"/></a> <a href="./src/type-challenges/04425-medium-greater-than/README.md" target="_blank"> (未完成)
 
 <img src="https://img.shields.io/badge/-4425%E3%83%BBGreater%20Than-d9901a" alt="4425・Greater Than"/></a> <a href="./src/type-challenges/04471-medium-zip/README.md" target="_blank">
 
@@ -150,6 +152,8 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-4484%E3%83%BBIsTuple-d9901a" alt="4484・IsTuple"/></a> <a href="./src/type-challenges/04499-medium-chunk/README.md" target="_blank">
 
 <img src="https://img.shields.io/badge/-4499%E3%83%BBChunk-d9901a" alt="4499・Chunk"/></a> <a href="./src/type-challenges/04518-medium-fill/README.md" target="_blank">
+
+### 2022-12-25
 
 <img src="https://img.shields.io/badge/-4518%E3%83%BBFill-d9901a" alt="4518・Fill"/></a> <a href="./src/type-challenges/04803-medium-trim-right/README.md" target="_blank">
 
@@ -160,6 +164,8 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-5140%E3%83%BBTrunc-d9901a" alt="5140・Trunc"/></a> <a href="./src/type-challenges/05153-medium-indexof/README.md" target="_blank">
 
 <img src="https://img.shields.io/badge/-5153%E3%83%BBIndexOf-d9901a" alt="5153・IndexOf"/></a> <a href="./src/type-challenges/05310-medium-join/README.md" target="_blank">
+
+## 未完成
 
 <img src="https://img.shields.io/badge/-5310%E3%83%BBJoin-d9901a" alt="5310・Join"/></a> <a href="./src/type-challenges/05317-medium-lastindexof/README.md" target="_blank">
 
