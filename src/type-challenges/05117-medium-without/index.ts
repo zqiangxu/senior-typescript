@@ -45,4 +45,4 @@ type Res3 = BestWithout<[1, 2], 1>; // expected to be [2]
 type Res4 = BestWithout<[1, 2, 4, 1, 5], [1, 2]>; // expected to be [4, 5]
 type Res5 = BestWithout<[2, 3, 2, 3, 2, 3, 2, 3], [2, 3]>; // expected to be []
 
-export { Without, U1 };
+export { Without, ToUnion };
