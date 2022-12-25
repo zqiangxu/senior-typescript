@@ -31,4 +31,18 @@ type Res = Without<[1, 2], 1>; // expected to be [2]
 type Res1 = Without<[1, 2, 4, 1, 5], [1, 2]>; // expected to be [4, 5]
 type Res2 = Without<[2, 3, 2, 3, 2, 3, 2, 3], [2, 3]>; // expected to be []
 
-export { Without };
+// 还一种比较好的做法是：把 WithoutData 转换为 Union 类型
+type ToUnion<T> = T extends any[] ? T[number] : T;
+type U1 = ToUnion<[1, 2, 3, 4]>;
+
+type BestWithout<T extends readonly any[], WithoutData> = T extends [infer First, ...infer Rest]
+  ? First extends ToUnion<WithoutData>
+    ? Without<Rest, WithoutData>
+    : [First, ...Without<Rest, WithoutData>]
+  : [];
+
+type Res3 = BestWithout<[1, 2], 1>; // expected to be [2]
+type Res4 = BestWithout<[1, 2, 4, 1, 5], [1, 2]>; // expected to be [4, 5]
+type Res5 = BestWithout<[2, 3, 2, 3, 2, 3, 2, 3], [2, 3]>; // expected to be []
+
+export { Without, U1 };
