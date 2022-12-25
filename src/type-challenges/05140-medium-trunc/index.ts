@@ -1,4 +1,4 @@
-type Trunc<T extends number | string> = `${T}` extends `${infer Value}.${infer Suffix}` ? Value : T;
+type Trunc<T extends number | string> = `${T}` extends `${infer Value}.${infer Suffix}` ? Value : `${T}`;
 
 type T1 = Trunc<0.1>;
 type T2 = Trunc<1.234>;
