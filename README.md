@@ -105,9 +105,7 @@ type-challenges 进度：
 ### 2022-12-24
 
 <img src="https://img.shields.io/badge/-4182%E3%83%BBFibonacci%20Sequence-d9901a" alt="4182・Fibonacci Sequence"/></a> <a href="./src/type-challenges/04260-medium-nomiwase/README.md" target="_blank">
-
-<img src="https://img.shields.io/badge/-4260%E3%83%BBAllCombinations-d9901a" alt="4260・AllCombinations"/></a> <a href="./src/type-challenges/04425-medium-greater-than/README.md" target="_blank"> (未完成)
-
+<img src="https://img.shields.io/badge/-(未完成)4260%E3%83%BBAllCombinations-FF0000" alt="4260・AllCombinations"/></a> <a href="./src/type-challenges/04425-medium-greater-than/README.md" target="_blank">
 <img src="https://img.shields.io/badge/-4425%E3%83%BBGreater%20Than-d9901a" alt="4425・Greater Than"/></a> <a href="./src/type-challenges/04471-medium-zip/README.md" target="_blank">
 <img src="https://img.shields.io/badge/-4471%E3%83%BBZip-d9901a" alt="4471・Zip"/></a> <a href="./src/type-challenges/04484-medium-istuple/README.md" target="_blank">
 <img src="https://img.shields.io/badge/-4484%E3%83%BBIsTuple-d9901a" alt="4484・IsTuple"/></a> <a href="./src/type-challenges/04499-medium-chunk/README.md" target="_blank">
