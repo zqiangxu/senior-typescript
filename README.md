@@ -149,17 +149,18 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-8767%E3%83%BBCombination-d9901a" alt="8767・Combination"/></a> <a href="./type-challenges/08987-medium-subsequence" target="_blank">
 <img src="https://img.shields.io/badge/-8987%E3%83%BBSubsequence-d9901a" alt="8987・Subsequence"/></a>
 
+### 2022-12-28
+
+<a href="./type-challenges/09286-medium-firstuniquecharindex" target="_blank">
+<img src="https://img.shields.io/badge/-9286%E3%83%BBFirstUniqueCharIndex-d9901a" alt="9286・FirstUniqueCharIndex"/></a> <a href="./type-challenges/09896-medium-get-middle-element" target="_blank">
+<img src="https://img.shields.io/badge/-9896%E3%83%BBGetMiddleElement-d9901a" alt="9896・GetMiddleElement"/></a> <a href="./type-challenges/10969-medium-integer" target="_blank">
+<img src="https://img.shields.io/badge/-10969%E3%83%BBInteger-d9901a" alt="10969・Integer"/></a>
+
 ---
 
 ## 未完成
 
-<a href="./type-challenges/09286-medium-firstuniquecharindex" target="_blank">
-
-<img src="https://img.shields.io/badge/-9286%E3%83%BBFirstUniqueCharIndex-d9901a" alt="9286・FirstUniqueCharIndex"/></a> <a href="./type-challenges/09896-medium-get-middle-element" target="_blank">
-
-<img src="https://img.shields.io/badge/-9896%E3%83%BBGetMiddleElement-d9901a" alt="9896・GetMiddleElement"/></a> <a href="./type-challenges/10969-medium-integer" target="_blank">
-
-<img src="https://img.shields.io/badge/-10969%E3%83%BBInteger-d9901a" alt="10969・Integer"/></a> <a href="./type-challenges/16259-medium-to-primitive" target="_blank">
+ <a href="./type-challenges/16259-medium-to-primitive" target="_blank">
 
 <img src="https://img.shields.io/badge/-16259%E3%83%BBToPrimitive-d9901a" alt="16259・ToPrimitive"/></a> <a href="./type-challenges/17973-medium-deepmutable" target="_blank">
 
