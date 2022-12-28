@@ -11,12 +11,10 @@ type IR5 = IsRealNumber<'1.0'>;
 type IR6 = IsRealNumber<true>;
 
 type Integer<T extends number> = IsRealNumber<T> extends true
-  ? `${T}` extends `${infer TruncNumber}.${infer Suffix}`
-    ? `${Suffix}` extends '0'
-      ? true
-      : false
-    : true
-  : false;
+  ? `${T}` extends `${string}.${string}`
+    ? never
+    : T
+  : never;
 
 type R1 = Integer<1>;
 type R2 = Integer<1.1>;
