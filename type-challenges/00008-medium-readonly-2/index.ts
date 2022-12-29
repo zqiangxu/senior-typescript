@@ -34,10 +34,10 @@ const todo: Result2 = {
   completed: false,
 };
 
-// error
+// @ts-expect-error
 todo.title = 'Hello';
 
-// error
+// @ts-expect-error
 todo.description = 'barFoo';
 
 // ok
