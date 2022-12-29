@@ -156,19 +156,19 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-9896%E3%83%BBGetMiddleElement-d9901a" alt="9896・GetMiddleElement"/></a> <a href="./type-challenges/10969-medium-integer" target="_blank">
 <img src="https://img.shields.io/badge/-10969%E3%83%BBInteger-d9901a" alt="10969・Integer"/></a>
 
+## 2022-12-29
+
+<a href="./type-challenges/16259-medium-to-primitive" target="_blank">
+<img src="https://img.shields.io/badge/-16259%E3%83%BBToPrimitive-d9901a" alt="16259・ToPrimitive"/></a> <a href="./type-challenges/17973-medium-deepmutable" target="_blank">
+<img src="https://img.shields.io/badge/-17973%E3%83%BBDeepMutable-d9901a" alt="17973・DeepMutable"/></a> <a href="./type-challenges/18142-medium-all" target="_blank">
+<img src="https://img.shields.io/badge/-18142%E3%83%BBAll-d9901a" alt="18142・All"/></a> <a href="./type-challenges/18220-medium-filter" target="_blank">
+<img src="https://img.shields.io/badge/-18220%E3%83%BBFilter-d9901a" alt="18220・Filter"/></a>
+
 ---
 
 ## 未完成
 
- <a href="./type-challenges/16259-medium-to-primitive" target="_blank">
-
-<img src="https://img.shields.io/badge/-16259%E3%83%BBToPrimitive-d9901a" alt="16259・ToPrimitive"/></a> <a href="./type-challenges/17973-medium-deepmutable" target="_blank">
-
-<img src="https://img.shields.io/badge/-17973%E3%83%BBDeepMutable-d9901a" alt="17973・DeepMutable"/></a> <a href="./type-challenges/18142-medium-all" target="_blank">
-
-<img src="https://img.shields.io/badge/-18142%E3%83%BBAll-d9901a" alt="18142・All"/></a> <a href="./type-challenges/18220-medium-filter" target="_blank">
-
-<img src="https://img.shields.io/badge/-18220%E3%83%BBFilter-d9901a" alt="18220・Filter"/></a> <br><br>
+<br><br>
 
 <img src="https://img.shields.io/badge/hard-43-de3d37" alt="43"/><br><a href="./type-challenges/00006-hard-simple-vue" target="_blank">
 
