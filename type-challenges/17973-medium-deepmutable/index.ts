@@ -1,6 +1,12 @@
 // 判断是否为一个 object
 type IsObject<T> = T extends Record<PropertyKey, unknown> ? true : false;
 
+// false
+type IO1 = IsObject<() => {}>;
+
+// function extends object
+type IO2 = (() => {}) extends object ? true : false;
+
 type X = {
   readonly a: () => 1;
   readonly b: string;
