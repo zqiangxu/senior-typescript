@@ -2,7 +2,7 @@
 
 let Animal = {
   hello() {
-    // error
+    // @ts-expect-error
     console.error(this.name);
   },
 };

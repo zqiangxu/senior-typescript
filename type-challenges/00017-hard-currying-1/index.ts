@@ -1,6 +1,6 @@
-function curring(fun) {
-  return function (a) {
-    return function (b) {
+function curring(fun: (a: unknown, b: unknown) => unknown) {
+  return function (a: unknown) {
+    return function (b: unknown) {
       return fun(a, b);
     };
   };

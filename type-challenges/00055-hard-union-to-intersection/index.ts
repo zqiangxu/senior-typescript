@@ -11,3 +11,5 @@ type U = 'foo' | 42 | true;
 type E1 = Exclude<'foo' | 42 | (() => void), () => void>;
 
 type UTA1 = UnionToArray<U>;
+
+export { Union2Intersection };

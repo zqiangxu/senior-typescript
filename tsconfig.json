@@ -2,12 +2,20 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "target": "ESNext",
+    "target": "ES2017",
     "module": "ESNext",
     "declaration": true,
     "baseUrl": "./",
     "sourceMap": true,
     "lib": ["es2018", "dom"],
+    /**
+     * 需要开启严格模式. 不然有些类型会判断错误. 比如:
+     * 1、type foo = {a?: string}
+     * strict: false => foo['a'] => string
+     * strict: true => foo['a'] => string | undefined
+     * 2、ThisType<> 提示无效, 仍然显示 any. 且不会报错
+     */
+    "strict": true,
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
     "suppressImplicitAnyIndexErrors": true,
