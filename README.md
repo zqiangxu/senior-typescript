@@ -164,21 +164,34 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-18142%E3%83%BBAll-d9901a" alt="18142・All"/></a> <a href="./type-challenges/18220-medium-filter" target="_blank">
 <img src="https://img.shields.io/badge/-18220%E3%83%BBFilter-d9901a" alt="18220・Filter"/></a>
 
+<br><br>
+
+<img src="https://img.shields.io/badge/hard-43-de3d37" alt="43"/><br>
+
+## 2022-12-30
+
+<img src="https://img.shields.io/badge/-待学习%E3%83%BBThisType-FAFA90" alt="learning"/>
+<a href="./type-challenges/00006-hard-simple-vue" target="_blank">
+<img src="https://img.shields.io/badge/-6%E3%83%BBSimple%20Vue-de3d37" alt="6・Simple Vue"/>
+</a>
+
+<img src="https://img.shields.io/badge/-待学习%E3%83%BB逆变与协变-FAFA90" alt="learning"/>
+<a href="./type-challenges/00055-hard-union-to-intersection" target="_blank">
+<img src="https://img.shields.io/badge/-55%E3%83%BBUnion%20to%20Intersection-de3d37" alt="55・Union to Intersection"/></a>
+
+相关资料：<br/>
+[How I understand Covariance & Contravariance in typescript](https://dev.to/codeoz/how-i-understand-covariance-contravariance-in-typescript-2766)
+
+<a href="./type-challenges/00017-hard-currying-1" target="_blank">
+<img src="https://img.shields.io/badge/-17%E3%83%BBCurrying%201-de3d37" alt="17・Currying 1"/></a>
+<a href="./type-challenges/00057-hard-get-required" target="_blank">
+<img src="https://img.shields.io/badge/-57%E3%83%BBGet%20Required-de3d37" alt="57・Get Required"/></a>
+
 ---
 
 ## 未完成
 
-<br><br>
-
-<img src="https://img.shields.io/badge/hard-43-de3d37" alt="43"/><br><a href="./type-challenges/00006-hard-simple-vue" target="_blank">
-
-<img src="https://img.shields.io/badge/-6%E3%83%BBSimple%20Vue-de3d37" alt="6・Simple Vue"/></a> <a href="./type-challenges/00017-hard-currying-1" target="_blank">
-
-<img src="https://img.shields.io/badge/-17%E3%83%BBCurrying%201-de3d37" alt="17・Currying 1"/></a> <a href="./type-challenges/00055-hard-union-to-intersection" target="_blank">
-
-<img src="https://img.shields.io/badge/-55%E3%83%BBUnion%20to%20Intersection-de3d37" alt="55・Union to Intersection"/></a> <a href="./type-challenges/00057-hard-get-required" target="_blank">
-
-<img src="https://img.shields.io/badge/-57%E3%83%BBGet%20Required-de3d37" alt="57・Get Required"/></a> <a href="./type-challenges/00059-hard-get-optional" target="_blank">
+ <a href="./type-challenges/00059-hard-get-optional" target="_blank">
 
 <img src="https://img.shields.io/badge/-59%E3%83%BBGet%20Optional-de3d37" alt="59・Get Optional"/></a> <a href="./type-challenges/00089-hard-required-keys" target="_blank">
 
