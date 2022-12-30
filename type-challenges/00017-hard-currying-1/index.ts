@@ -26,3 +26,5 @@ const add3 = (a: number, b: number, c: number) => a + b + c;
 
 const curriedAdd2 = Currying(add3);
 const ten = curriedAdd2(2)(3)(5);
+
+export { Currying, CurringResult };
