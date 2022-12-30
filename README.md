@@ -170,13 +170,11 @@ type-challenges 进度：
 
 ## 2022-12-30
 
-<img src="https://img.shields.io/badge/-待学习%E3%83%BBThisType-FAFA90" alt="learning"/>
-<a href="./type-challenges/00006-hard-simple-vue" target="_blank">
+<img src="https://img.shields.io/badge/-待学习%E3%83%BBThisType-FAFA90" alt="learning"/><a href="./type-challenges/00006-hard-simple-vue" target="_blank">
 <img src="https://img.shields.io/badge/-6%E3%83%BBSimple%20Vue-de3d37" alt="6・Simple Vue"/>
 </a>
 
-<img src="https://img.shields.io/badge/-待学习%E3%83%BB逆变与协变-FAFA90" alt="learning"/>
-<a href="./type-challenges/00055-hard-union-to-intersection" target="_blank">
+<img src="https://img.shields.io/badge/-待学习%E3%83%BB逆变与协变-FAFA90" alt="learning"/><a href="./type-challenges/00055-hard-union-to-intersection" target="_blank">
 <img src="https://img.shields.io/badge/-55%E3%83%BBUnion%20to%20Intersection-de3d37" alt="55・Union to Intersection"/></a>
 
 相关资料：<br/>
