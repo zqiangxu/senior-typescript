@@ -27,6 +27,14 @@ type CapitalLetter =
   | 'Y'
   | 'Z';
 
+// or
+type IsLetter<T extends string> = Uppercase<T> extends Lowercase<T> ? false : true;
+type IL1 = IsLetter<'A'>;
+type IL2 = IsLetter<'a'>;
+type IL3 = IsLetter<'0'>;
+type IL4 = IsLetter<'$'>;
+type IL5 = IsLetter<'_'>;
+
 type CapitalizeWords<T extends string, FirstCharFlag = true> = T extends `${infer FirstChar}${infer Sub}`
   ? // 如果第一个字符是字母
     Uppercase<FirstChar> extends CapitalLetter
