@@ -51,3 +51,5 @@ type capitalized8 = CapitalizeWords<'Abc12Abc(jj)🤣12Abc12abc'>;
 type capitalized9 = CapitalizeWords<'oo|pp🤣qq'>;
 type capitalized10 = CapitalizeWords<'ee%ff^gg&hh*ii(jj)kk_ll+mm{nn}oo|pp🤣qq'>;
 type capitalized11 = CapitalizeWords<'!bb@cc#dd$ee%ff^gg&hh*ii(jj)kk_ll+mm{nn}oo|pp🤣qq'>;
+
+export { CapitalizeWords };
