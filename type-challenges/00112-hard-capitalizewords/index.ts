@@ -1,3 +1,4 @@
+// 这里可以把 string 转成 union ，写法会更优雅一点
 type CapitalLetter =
   | 'A'
   | 'B'
