@@ -185,21 +185,23 @@ type-challenges 进度：
 <a href="./type-challenges/00057-hard-get-required" target="_blank">
 <img src="https://img.shields.io/badge/-57%E3%83%BBGet%20Required-de3d37" alt="57・Get Required"/></a>
 
+## 2022-12-31
+
+ <a href="./type-challenges/00059-hard-get-optional" target="_blank">
+<img src="https://img.shields.io/badge/-59%E3%83%BBGet%20Optional-de3d37" alt="59・Get Optional"/></a> 
+<a href="./type-challenges/00089-hard-required-keys" target="_blank">
+<img src="https://img.shields.io/badge/-89%E3%83%BBRequired%20Keys-de3d37" alt="89・Required Keys"/></a> 
+<a href="./type-challenges/00090-hard-optional-keys" target="_blank">
+<img src="https://img.shields.io/badge/-90%E3%83%BBOptional%20Keys-de3d37" alt="90・Optional Keys"/></a> 
+<a href="./type-challenges/00112-hard-capitalizewords" target="_blank">
+<img src="https://img.shields.io/badge/-112%E3%83%BBCapitalize%20Words-de3d37" alt="112・Capitalize Words"/></a>
+<a href="./type-challenges/00114-hard-camelcase" target="_blank"><img src="https://img.shields.io/badge/-114%E3%83%BBCamelCase-de3d37" alt="114・CamelCase"/></a>
+
 ---
 
 ## 未完成
 
- <a href="./type-challenges/00059-hard-get-optional" target="_blank">
-
-<img src="https://img.shields.io/badge/-59%E3%83%BBGet%20Optional-de3d37" alt="59・Get Optional"/></a> <a href="./type-challenges/00089-hard-required-keys" target="_blank">
-
-<img src="https://img.shields.io/badge/-89%E3%83%BBRequired%20Keys-de3d37" alt="89・Required Keys"/></a> <a href="./type-challenges/00090-hard-optional-keys" target="_blank">
-
-<img src="https://img.shields.io/badge/-90%E3%83%BBOptional%20Keys-de3d37" alt="90・Optional Keys"/></a> <a href="./type-challenges/00112-hard-capitalizewords" target="_blank">
-
-<img src="https://img.shields.io/badge/-112%E3%83%BBCapitalize%20Words-de3d37" alt="112・Capitalize Words"/></a> <a href="./type-challenges/00114-hard-camelcase" target="_blank">
-
-<img src="https://img.shields.io/badge/-114%E3%83%BBCamelCase-de3d37" alt="114・CamelCase"/></a> <a href="./type-challenges/00147-hard-c-printf-parser" target="_blank">
+ <a href="./type-challenges/00147-hard-c-printf-parser" target="_blank">
 
 <img src="https://img.shields.io/badge/-147%E3%83%BBC--printf%20Parser-de3d37" alt="147・C-printf Parser"/></a> <a href="./type-challenges/00213-hard-vue-basic-props" target="_blank">
 
