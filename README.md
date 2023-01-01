@@ -197,13 +197,16 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-112%E3%83%BBCapitalize%20Words-de3d37" alt="112・Capitalize Words"/></a>
 <a href="./type-challenges/00114-hard-camelcase" target="_blank"><img src="https://img.shields.io/badge/-114%E3%83%BBCamelCase-de3d37" alt="114・CamelCase"/></a>
 
+## 2022-01-01
+
+ <a href="./type-challenges/00147-hard-c-printf-parser" target="_blank">
+<img src="https://img.shields.io/badge/-147%E3%83%BBC--printf%20Parser-de3d37" alt="147・C-printf Parser"/></a>
+
 ---
 
 ## 未完成
 
- <a href="./type-challenges/00147-hard-c-printf-parser" target="_blank">
-
-<img src="https://img.shields.io/badge/-147%E3%83%BBC--printf%20Parser-de3d37" alt="147・C-printf Parser"/></a> <a href="./type-challenges/00213-hard-vue-basic-props" target="_blank">
+ <a href="./type-challenges/00213-hard-vue-basic-props" target="_blank">
 
 <img src="https://img.shields.io/badge/-213%E3%83%BBVue%20Basic%20Props-de3d37" alt="213・Vue Basic Props"/></a> <a href="./type-challenges/00223-hard-isany" target="_blank">
 

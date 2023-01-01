@@ -34,5 +34,18 @@ type P5 = ParsePrintFormat<'The result is %%%d.'>;
 type P6 = ParsePrintFormat<'The result is %f.'>;
 type P7 = ParsePrintFormat<'The result is %h.'>;
 type P8 = ParsePrintFormat<'The result is %q.'>;
-type P9 = ParsePrintFormat<'Hello %s: score is %d.'>;
+type P9 = ParsePrintFormat<'Hello %s: score is %d. %d'>;
 type P10 = ParsePrintFormat<'The result is %'>;
+
+type RemoveSymbol<S extends string> = S extends `%${infer R}` ? R : S;
+
+// @TODO
+type BestParsePrintFormat<T extends string> = T extends `${string}%${infer P extends keyof ControlsMap}${infer Sub}`
+  ? [ControlsMap[P], ...BestParsePrintFormat<Sub>]
+  : [];
+
+type BP1 = BestParsePrintFormat<'The result is %d.'>;
+type BP2 = BestParsePrintFormat<'The result is %%%d.'>;
+type BP3 = BestParsePrintFormat<'Hello %s: score is %d. %d'>;
+
+export { ParsePrintFormat, BestParsePrintFormat };
