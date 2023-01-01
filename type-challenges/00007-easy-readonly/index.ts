@@ -12,7 +12,7 @@ const todo: MyReadonly<Todo2> = {
   description: 'foobar',
 };
 
-// readonly
+// @ts-expect-error
 todo.title = '12';
 
 export { MyReadonly };
