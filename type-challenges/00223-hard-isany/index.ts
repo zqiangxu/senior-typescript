@@ -1,5 +1,6 @@
 // 1 & T 当 T 为 any 的时候返回 any. 此时 0 extends any => true
 // 1 & T，如果是非 any 类型，除非返回 0 | 包含0的union类型，否则只可能返回 false. 而这个不可能
+// 当然 0 和 1 可以换成其它合理的值
 type IsAny<T> = 0 extends 1 & T ? true : false;
 
 // 任何一个类型都 extends any
