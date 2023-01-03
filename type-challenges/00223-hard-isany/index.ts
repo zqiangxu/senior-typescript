@@ -1,10 +1,6 @@
-// T & string => 如果为 string, 返回 string, 为 any 返回 any. 其它返回 never
-type IsAny<T> = string extends T & string
-  ? // 可能为 any ，可能为 string, 排除掉 string 本身
-    T extends string
-    ? false
-    : true
-  : false;
+// 1 & T 当 T 为 any 的时候返回 any. 此时 0 extends any => true
+// 1 & T，如果是非 any 类型，除非返回 0 | 包含0的union类型，否则只可能返回 false. 而这个不可能
+type IsAny<T> = 0 extends 1 & T ? true : false;
 
 // 任何一个类型都 extends any
 type T1 = number extends any ? true : false; // true
@@ -24,10 +20,14 @@ type A6 = unknown & any; // any
 
 type B1 = number & string; // never
 type B2 = string & string; // number
+type B3 = (number | string) & string; // string
 
 type R1 = IsAny<Boolean>;
 type R2 = IsAny<string>;
 type R3 = IsAny<number>;
 type R4 = IsAny<unknown>;
+type R5 = IsAny<string | number>;
+type R6 = IsAny<0 | 1>;
+type R7 = IsAny<any>;
 
 export { IsAny };
