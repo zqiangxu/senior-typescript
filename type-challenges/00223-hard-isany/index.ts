@@ -6,6 +6,7 @@ type IsAny<T> = string extends T & string
     : true
   : false;
 
+// 任何一个类型都 extends any
 type T1 = number extends any ? true : false; // true
 type T2 = string extends any ? true : false; // true
 type T3 = boolean extends any ? true : false; // true
@@ -13,6 +14,7 @@ type T4 = undefined extends any ? true : false; // true
 type T5 = never extends any ? true : false; // true
 type T6 = unknown extends any ? true : false; // true
 
+// 任何一个类型 & any 都为 any
 type A1 = number & any; // any
 type A2 = string & any; // any
 type A3 = boolean & any; // any
