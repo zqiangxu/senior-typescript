@@ -6,7 +6,8 @@ type RealComputed<T> = {
 // 同样需要取出 Props 的真实返回值
 type RealProps<T> = {
   [Key in keyof T]: T[Key] extends { type: any | any[] }
-    ? T[Key]['type'] extends any[]
+    ? // @TODO 没有考虑 InstanceType. 后面优化的时候可以加上
+      T[Key]['type'] extends any[]
       ? // 如果是数组，要转成联合类型
         T[Key]['type'][number]
       : T[Key]['type']
