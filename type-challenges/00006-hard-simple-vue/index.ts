@@ -39,3 +39,5 @@ const instance = SimpleVue({
     },
   },
 });
+
+export { SimpleVue };
