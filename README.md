@@ -117,7 +117,7 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-4425%E3%83%BBGreater%20Than-d9901a" alt="4425・Greater Than"/></a> <a href="./type-challenges/04471-medium-zip" target="_blank">
 <img src="https://img.shields.io/badge/-4471%E3%83%BBZip-d9901a" alt="4471・Zip"/></a> <a href="./type-challenges/04484-medium-istuple" target="_blank">
 <img src="https://img.shields.io/badge/-4484%E3%83%BBIsTuple-d9901a" alt="4484・IsTuple"/></a> <a href="./type-challenges/04499-medium-chunk" target="_blank">
-<img src="https://img.shields.io/badge/-4499%E3%83%BBChunk-d9901a" alt="4499・Chunk"/>
+<img src="https://img.shields.io/badge/-4499%E3%83%BBChunk-d9901a" alt="4499・Chunk"/></a>
 
 ### 2022-12-25
 
@@ -208,15 +208,17 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-213%E3%83%BBVue%20Basic%20Props-de3d37" alt="213・Vue Basic Props"/></a>
 <a href="./type-challenges/00223-hard-isany" target="_blank"><img src="https://img.shields.io/badge/-223%E3%83%BBIsAny-de3d37" alt="223・IsAny"/></a>
 
+## 2020-01-04
+
+ <a href="./type-challenges/00270-hard-typed-get" target="_blank">
+<img src="https://img.shields.io/badge/-270%E3%83%BBTyped%20Get-de3d37" alt="270・Typed Get"/></a> <a href="./type-challenges/00300-hard-string-to-number" target="_blank">
+<img src="https://img.shields.io/badge/-300%E3%83%BBString%20to%20Number-de3d37" alt="300・String to Number"/></a>
+
 ---
 
 ## 未完成
 
- <a href="./type-challenges/00270-hard-typed-get" target="_blank">
-
-<img src="https://img.shields.io/badge/-270%E3%83%BBTyped%20Get-de3d37" alt="270・Typed Get"/></a> <a href="./type-challenges/00300-hard-string-to-number" target="_blank">
-
-<img src="https://img.shields.io/badge/-300%E3%83%BBString%20to%20Number-de3d37" alt="300・String to Number"/></a> <a href="./type-challenges/00399-hard-tuple-filter" target="_blank">
+ <a href="./type-challenges/00399-hard-tuple-filter" target="_blank">
 
 <img src="https://img.shields.io/badge/-399%E3%83%BBTuple%20Filter-de3d37" alt="399・Tuple Filter"/></a> <a href="./type-challenges/00472-hard-tuple-to-enum-object" target="_blank">
 
