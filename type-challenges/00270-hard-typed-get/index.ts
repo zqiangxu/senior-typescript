@@ -38,4 +38,14 @@ type O1 = Data extends Record<string, unknown> ? true : false;
 type O2 = Data['hello'] extends Record<string, unknown> ? true : false;
 type O3 = Data['foo'] extends Record<string, unknown> ? true : false;
 
+/**
+ * @see {@link https://github.com/type-challenges/type-challenges/issues/13234}
+ */
+
+// 如果 Key 是形如 . 的格式. 则取出第一个 key 值，然后根据 T[F] 取到对应的属性值之后，再继续递归 Rest
+type BestGet<T, K extends string> = K extends `${infer F}.${infer Rest}`
+  ? // F & keyof T 是为了排除不是的 keyof T 中的属性.
+    Get<T[F & keyof T], Rest>
+  : T[K & keyof T];
+
 export { Get };
