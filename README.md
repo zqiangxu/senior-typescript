@@ -214,15 +214,17 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-270%E3%83%BBTyped%20Get-de3d37" alt="270・Typed Get"/></a> <a href="./type-challenges/00300-hard-string-to-number" target="_blank">
 <img src="https://img.shields.io/badge/-300%E3%83%BBString%20to%20Number-de3d37" alt="300・String to Number"/></a>
 
+## 2020-01-06
+
+ <a href="./type-challenges/00399-hard-tuple-filter" target="_blank">
+<img src="https://img.shields.io/badge/-399%E3%83%BBTuple%20Filter-de3d37" alt="399・Tuple Filter"/></a> <a href="./type-challenges/00472-hard-tuple-to-enum-object" target="_blank">
+<img src="https://img.shields.io/badge/-472%E3%83%BBTuple%20to%20Enum%20Object-de3d37" alt="472・Tuple to Enum Object"/></a>
+
 ---
 
 ## 未完成
 
- <a href="./type-challenges/00399-hard-tuple-filter" target="_blank">
-
-<img src="https://img.shields.io/badge/-399%E3%83%BBTuple%20Filter-de3d37" alt="399・Tuple Filter"/></a> <a href="./type-challenges/00472-hard-tuple-to-enum-object" target="_blank">
-
-<img src="https://img.shields.io/badge/-472%E3%83%BBTuple%20to%20Enum%20Object-de3d37" alt="472・Tuple to Enum Object"/></a> <a href="./type-challenges/00545-hard-printf" target="_blank">
+ <a href="./type-challenges/00545-hard-printf" target="_blank">
 
 <img src="https://img.shields.io/badge/-545%E3%83%BBprintf-de3d37" alt="545・printf"/></a> <a href="./type-challenges/00553-hard-deep-object-to-unique" target="_blank">
 
