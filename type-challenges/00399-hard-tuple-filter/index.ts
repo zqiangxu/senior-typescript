@@ -1,6 +1,8 @@
 type IsNever<T> = [T] extends [never] ? true : false;
 
 // 需要注意 never 不能直接使用 T extends never
+// 后面那个条件可以不用
+// @best type IsMatch<T, Element> = [T] extends [Element] ? true : false;
 type IsMatch<T, Element> = [T] extends [Element] ? true : T extends Element ? true : false;
 
 type IM1 = IsMatch<never, never>; // true
