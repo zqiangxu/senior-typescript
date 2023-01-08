@@ -226,6 +226,8 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-545%E3%83%BBprintf-de3d37" alt="545・printf"/></a>
 <a href="./type-challenges/00651-hard-length-of-string-2" target="_blank">
 <img src="https://img.shields.io/badge/-651%E3%83%BBLength%20of%20String%202-de3d37" alt="651・Length of String 2"/></a>
+<a href="./type-challenges/00847-hard-string-join" target="_blank">
+<img src="https://img.shields.io/badge/-847%E3%83%BBString%20Join-de3d37" alt="847・String Join"/></a>
 
 ---
 
