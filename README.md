@@ -208,29 +208,32 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-213%E3%83%BBVue%20Basic%20Props-de3d37" alt="213・Vue Basic Props"/></a>
 <a href="./type-challenges/00223-hard-isany" target="_blank"><img src="https://img.shields.io/badge/-223%E3%83%BBIsAny-de3d37" alt="223・IsAny"/></a>
 
-## 2020-01-04
+## 2022-01-04
 
  <a href="./type-challenges/00270-hard-typed-get" target="_blank">
 <img src="https://img.shields.io/badge/-270%E3%83%BBTyped%20Get-de3d37" alt="270・Typed Get"/></a> <a href="./type-challenges/00300-hard-string-to-number" target="_blank">
 <img src="https://img.shields.io/badge/-300%E3%83%BBString%20to%20Number-de3d37" alt="300・String to Number"/></a>
 
-## 2020-01-06
+## 2022-01-06
 
  <a href="./type-challenges/00399-hard-tuple-filter" target="_blank">
 <img src="https://img.shields.io/badge/-399%E3%83%BBTuple%20Filter-de3d37" alt="399・Tuple Filter"/></a> <a href="./type-challenges/00472-hard-tuple-to-enum-object" target="_blank">
 <img src="https://img.shields.io/badge/-472%E3%83%BBTuple%20to%20Enum%20Object-de3d37" alt="472・Tuple to Enum Object"/></a>
 
+## 2022-01-08
+
+<a href="./type-challenges/00545-hard-printf" target="_blank">
+<img src="https://img.shields.io/badge/-545%E3%83%BBprintf-de3d37" alt="545・printf"/></a>
+<a href="./type-challenges/00651-hard-length-of-string-2" target="_blank">
+<img src="https://img.shields.io/badge/-651%E3%83%BBLength%20of%20String%202-de3d37" alt="651・Length of String 2"/></a>
+
 ---
 
 ## 未完成
 
- <a href="./type-challenges/00545-hard-printf" target="_blank">
+ <a href="./type-challenges/00553-hard-deep-object-to-unique" target="_blank">
 
-<img src="https://img.shields.io/badge/-545%E3%83%BBprintf-de3d37" alt="545・printf"/></a> <a href="./type-challenges/00553-hard-deep-object-to-unique" target="_blank">
-
-<img src="https://img.shields.io/badge/-553%E3%83%BBDeep%20object%20to%20unique-de3d37" alt="553・Deep object to unique"/></a> <a href="./type-challenges/00651-hard-length-of-string-2" target="_blank">
-
-<img src="https://img.shields.io/badge/-651%E3%83%BBLength%20of%20String%202-de3d37" alt="651・Length of String 2"/></a> <a href="./type-challenges/00730-hard-union-to-tuple" target="_blank">
+<img src="https://img.shields.io/badge/-553%E3%83%BBDeep%20object%20to%20unique-de3d37" alt="553・Deep object to unique"/></a> <a href="./type-challenges/00730-hard-union-to-tuple" target="_blank">
 
 <img src="https://img.shields.io/badge/-730%E3%83%BBUnion%20to%20Tuple-de3d37" alt="730・Union to Tuple"/></a> <a href="./type-challenges/00847-hard-string-join" target="_blank">
 
