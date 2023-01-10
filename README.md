@@ -229,6 +229,11 @@ type-challenges 进度：
 <a href="./type-challenges/00847-hard-string-join" target="_blank">
 <img src="https://img.shields.io/badge/-847%E3%83%BBString%20Join-de3d37" alt="847・String Join"/></a>
 
+## 2022-01-10
+
+<a href="./type-challenges/00956-hard-deeppick" target="_blank">
+<img src="https://img.shields.io/badge/-956%E3%83%BBDeepPick-de3d37" alt="956・DeepPick"/></a>
+
 ---
 
 ## 未完成
@@ -239,9 +244,7 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-730%E3%83%BBUnion%20to%20Tuple-de3d37" alt="730・Union to Tuple"/></a> <a href="./type-challenges/00847-hard-string-join" target="_blank">
 
-<img src="https://img.shields.io/badge/-847%E3%83%BBString%20Join-de3d37" alt="847・String Join"/></a> <a href="./type-challenges/00956-hard-deeppick" target="_blank">
-
-<img src="https://img.shields.io/badge/-956%E3%83%BBDeepPick-de3d37" alt="956・DeepPick"/></a> <a href="./type-challenges/01290-hard-pinia" target="_blank">
+<img src="https://img.shields.io/badge/-847%E3%83%BBString%20Join-de3d37" alt="847・String Join"/></a> <a href="./type-challenges/01290-hard-pinia" target="_blank">
 
 <img src="https://img.shields.io/badge/-1290%E3%83%BBPinia-de3d37" alt="1290・Pinia"/></a> <a href="./type-challenges/01383-hard-camelize" target="_blank">
 
