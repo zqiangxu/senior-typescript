@@ -236,6 +236,12 @@ type-challenges 进度：
 <a href="./type-challenges/01383-hard-camelize" target="_blank">
 <img src="https://img.shields.io/badge/-1383%E3%83%BBCamelize-de3d37" alt="1383・Camelize"/></a>
 
+## 2022-01-11
+
+<a href="./type-challenges/02059-hard-drop-string" target="_blank">
+<img src="https://img.shields.io/badge/-2059%E3%83%BBDrop%20String-de3d37" alt="2059・Drop String"/></a> <a href="./type-challenges/02822-hard-split" target="_blank">
+<img src="https://img.shields.io/badge/-2822%E3%83%BBSplit-de3d37" alt="2822・Split"/></a>
+
 ---
 
 ## 未完成
@@ -246,11 +252,7 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-730%E3%83%BBUnion%20to%20Tuple-de3d37" alt="730・Union to Tuple"/></a> <a href="./type-challenges/01290-hard-pinia" target="_blank">
 
-<img src="https://img.shields.io/badge/-1290%E3%83%BBPinia-de3d37" alt="1290・Pinia"/></a> <a href="./type-challenges/02059-hard-drop-string" target="_blank">
-
-<img src="https://img.shields.io/badge/-2059%E3%83%BBDrop%20String-de3d37" alt="2059・Drop String"/></a> <a href="./type-challenges/02822-hard-split" target="_blank">
-
-<img src="https://img.shields.io/badge/-2822%E3%83%BBSplit-de3d37" alt="2822・Split"/></a> <a href="./type-challenges/02828-hard-classpublickeys" target="_blank">
+<img src="https://img.shields.io/badge/-1290%E3%83%BBPinia-de3d37" alt="1290・Pinia"/></a> <a href="./type-challenges/02828-hard-classpublickeys" target="_blank">
 
 <img src="https://img.shields.io/badge/-2828%E3%83%BBClassPublicKeys-de3d37" alt="2828・ClassPublicKeys"/></a> <a href="./type-challenges/02857-hard-isrequiredkey" target="_blank">
 
