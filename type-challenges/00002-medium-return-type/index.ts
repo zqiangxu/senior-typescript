@@ -15,6 +15,6 @@ type Result3 = MyReturnType<() => ComplexObject>;
 type Result4 = MyReturnType<() => Promise<boolean>>;
 type Result5 = MyReturnType<() => () => 'foo'>;
 type Result6 = MyReturnType<typeof fn>;
-type Result7 = MyReturnType<typeof fn1>;
+type Result7 = ReturnType<typeof fn1>;
 
 export { MyReturnType };
