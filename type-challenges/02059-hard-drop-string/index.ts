@@ -18,4 +18,4 @@ type D8 = DropString<' b u t t e r f l y ! ', 'tub'>;
 type D9 = DropString<' b u t t e r f l y ! ', 'b'>;
 type D10 = DropString<' b u t t e r f l y ! ', 't'>;
 
-export { Butterfly };
+export { DropString };
