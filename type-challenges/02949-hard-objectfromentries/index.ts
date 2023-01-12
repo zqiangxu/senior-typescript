@@ -20,3 +20,5 @@ interface Model {
 type ModelEntries = ['name', string] | ['age', number] | ['locations', string[] | null];
 
 type result = ObjectFromEntries<ModelEntries>;
+
+export { ObjectFromEntries };
