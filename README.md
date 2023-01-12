@@ -242,6 +242,12 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-2059%E3%83%BBDrop%20String-de3d37" alt="2059・Drop String"/></a> <a href="./type-challenges/02822-hard-split" target="_blank">
 <img src="https://img.shields.io/badge/-2822%E3%83%BBSplit-de3d37" alt="2822・Split"/></a>
 
+## 2022-01-12
+
+<a href="./type-challenges/02949-hard-objectfromentries" target="_blank">
+<img src="https://img.shields.io/badge/-2949%E3%83%BBObjectFromEntries-de3d37" alt="2949・ObjectFromEntries"/></a> <a href="./type-challenges/04037-hard-ispalindrome" target="_blank">
+<img src="https://img.shields.io/badge/-4037%E3%83%BBIsPalindrome-de3d37" alt="4037・IsPalindrome"/></a>
+
 ---
 
 ## 未完成
@@ -256,11 +262,7 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-2828%E3%83%BBClassPublicKeys-de3d37" alt="2828・ClassPublicKeys"/></a> <a href="./type-challenges/02857-hard-isrequiredkey" target="_blank">
 
-<img src="https://img.shields.io/badge/-2857%E3%83%BBIsRequiredKey-de3d37" alt="2857・IsRequiredKey"/></a> <a href="./type-challenges/02949-hard-objectfromentries" target="_blank">
-
-<img src="https://img.shields.io/badge/-2949%E3%83%BBObjectFromEntries-de3d37" alt="2949・ObjectFromEntries"/></a> <a href="./type-challenges/04037-hard-ispalindrome" target="_blank">
-
-<img src="https://img.shields.io/badge/-4037%E3%83%BBIsPalindrome-de3d37" alt="4037・IsPalindrome"/></a> <a href="./type-challenges/05181-hard-mutable-keys" target="_blank">
+<img src="https://img.shields.io/badge/-2857%E3%83%BBIsRequiredKey-de3d37" alt="2857・IsRequiredKey"/></a> <a href="./type-challenges/05181-hard-mutable-keys" target="_blank">
 
 <img src="https://img.shields.io/badge/-5181%E3%83%BBMutable%20Keys-de3d37" alt="5181・Mutable Keys"/></a> <a href="./type-challenges/05423-hard-intersection" target="_blank">
 
