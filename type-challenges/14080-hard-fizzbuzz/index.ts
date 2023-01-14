@@ -23,10 +23,11 @@ type Output<T extends unknown[]> = Mod<T, 3> extends true
   ? 'Buzz'
   : T['length'];
 
-type FizzFuzz<T extends number, Arr extends unknown[] = [1]> = Arr['length'] extends T
-  ? Output<Arr>
-  : Output<Arr> | FizzFuzz<T, [...Arr, 1]>;
+type FizzBuzz<T extends number, Arr extends unknown[] = [1]> = Arr['length'] extends T
+  ? [Output<Arr>]
+  : [Output<Arr>, ...FizzBuzz<T, [...Arr, 1]>];
 
-type F1 = FizzFuzz<23>;
+type F1 = FizzBuzz<23>;
+type F2 = FizzBuzz<5>;
 
-export { FizzFuzz };
+export { FizzBuzz };
