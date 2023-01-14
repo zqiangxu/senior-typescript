@@ -1,7 +1,3 @@
-type Intersection<U> = U extends any ? [U] : null;
-
-type a = Intersection<1 | 2>;
-
 type UniqueArray<T extends any[], Result extends any[] = []> = T extends [infer First, ...infer Rest]
   ? First extends Result[number]
     ? UniqueArray<Rest, Result>
