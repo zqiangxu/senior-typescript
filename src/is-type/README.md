@@ -2,4 +2,4 @@
 
 类型判断列表：
 
-- [IsNever](./IsNever.ts)
+- [IsNever](./IsNever.ts): 判断一个类型是否为 Never 类型
