@@ -22,7 +22,7 @@ type T2 = ObjectKeyPaths<{
   person: { name: string; age: number };
 }>; // expected to be 'refCount' | 'person' | 'person.name' | 'person.age'
 type T3 = ObjectKeyPaths<{ books: [{ name: string; price: number }] }>; // expected to be the superset of 'books' | 'books.0' | 'books[0]' | 'books.[0]' | 'books.0.name' | 'books.0.price' | 'books.length' | 'books.find'
-type T4 = ObjectKeyPaths<{ 1: number; fox: number }>;
+type T4 = ObjectKeyPaths<{ 1: number; fox: number; books: [{ name: string }] }>;
 
 type IsObj = Book extends object ? true : false;
 type IsObj2 = [Book] extends object ? true : false;
