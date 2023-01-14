@@ -261,7 +261,10 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-14080%E3%83%BBFizzBuzz-de3d37" alt="14080・FizzBuzz"/></a> <a href="./type-challenges/14188-hard-run-length-encoding" target="_blank">
 <img src="https://img.shields.io/badge/-14188%E3%83%BBRun--length%20encoding-de3d37" alt="14188・Run-length encoding"/></a> <a href="./type-challenges/15260-hard-tree-path-array" target="_blank">
 <img src="https://img.shields.io/badge/-15260%E3%83%BBTree%20path%20array-de3d37" alt="15260・Tree path array"/></a><a href="./type-challenges/19458-hard-tree-path-array" target="_blank">
-<img src="https://img.shields.io/badge/-15260%E3%83%BBSnakeCase-de3d37" alt="19458・SnakeCase"/></a>
+<img src="https://img.shields.io/badge/-15260%E3%83%BBSnakeCase-de3d37" alt="19458・SnakeCase"/></a><a href="./type-challenges/02857-hard-isrequiredkey" target="_blank">
+<img src="https://img.shields.io/badge/-2857%E3%83%BBIsRequiredKey-de3d37" alt="2857・IsRequiredKey"/></a><a href="./type-challenges/02828-hard-classpublickeys" target="_blank">
+<img src="https://img.shields.io/badge/-2828%E3%83%BBClassPublicKeys-de3d37" alt="2828・ClassPublicKeys"/></a><a href="./type-challenges/05181-hard-mutable-keys" target="_blank">
+<img src="https://img.shields.io/badge/-5181%E3%83%BBMutable%20Keys-de3d37" alt="5181・Mutable Keys"/></a>
 
 ---
 
@@ -273,13 +276,7 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-730%E3%83%BBUnion%20to%20Tuple-de3d37" alt="730・Union to Tuple"/></a> <a href="./type-challenges/01290-hard-pinia" target="_blank">
 
-<img src="https://img.shields.io/badge/-1290%E3%83%BBPinia-de3d37" alt="1290・Pinia"/></a> <a href="./type-challenges/02828-hard-classpublickeys" target="_blank">
-
-<img src="https://img.shields.io/badge/-2828%E3%83%BBClassPublicKeys-de3d37" alt="2828・ClassPublicKeys"/></a> <a href="./type-challenges/02857-hard-isrequiredkey" target="_blank">
-
-<img src="https://img.shields.io/badge/-2857%E3%83%BBIsRequiredKey-de3d37" alt="2857・IsRequiredKey"/></a> <a href="./type-challenges/05181-hard-mutable-keys" target="_blank">
-
-<img src="https://img.shields.io/badge/-5181%E3%83%BBMutable%20Keys-de3d37" alt="5181・Mutable Keys"/></a> <a href="./type-challenges/05423-hard-intersection" target="_blank">
+<img src="https://img.shields.io/badge/-1290%E3%83%BBPinia-de3d37" alt="1290・Pinia"/></a> <a href="./type-challenges/05423-hard-intersection" target="_blank">
 
 <img src="https://img.shields.io/badge/-5423%E3%83%BBIntersection-de3d37" alt="5423・Intersection"/></a> <a href="./type-challenges/06141-hard-binary-to-decimal" target="_blank">
 
