@@ -87,7 +87,7 @@ type Merge<T> = {
 
 // 先把所有的 Key 都找出来
 type Keys<Sources extends any[] = []> = Sources extends [infer First, ...infer Rest]
-  ? First extends object
+  ? First extends Record<PropertyKey, unknown>
     ? keyof First | Keys<Rest>
     : never
   : never;
