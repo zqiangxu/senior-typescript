@@ -248,6 +248,21 @@ type-challenges 进度：
 <img src="https://img.shields.io/badge/-2949%E3%83%BBObjectFromEntries-de3d37" alt="2949・ObjectFromEntries"/></a> <a href="./type-challenges/04037-hard-ispalindrome" target="_blank">
 <img src="https://img.shields.io/badge/-4037%E3%83%BBIsPalindrome-de3d37" alt="4037・IsPalindrome"/></a>
 
+## 2022-01-24
+
+<a href="./type-challenges/07258-hard-object-key-paths" target="_blank">
+<img src="https://img.shields.io/badge/-7258%E3%83%BBObject%20Key%20Paths-de3d37" alt="7258・Object Key Paths"/></a> <a href="./type-challenges/08804-hard-two-sum" target="_blank">
+<img src="https://img.shields.io/badge/-8804%E3%83%BBTwo%20Sum-de3d37" alt="8804・Two Sum"/></a> <a href="./type-challenges/09155-hard-validdate" target="_blank">
+<img src="https://img.shields.io/badge/-9155%E3%83%BBValidDate-de3d37" alt="9155・ValidDate"/></a> <a href="./type-challenges/09160-hard-assign" target="_blank">
+<img src="https://img.shields.io/badge/-9160%E3%83%BBAssign-de3d37" alt="9160・Assign"/></a> <a href="./type-challenges/09384-hard-maximum" target="_blank">
+<img src="https://img.shields.io/badge/-9384%E3%83%BBMaximum-de3d37" alt="9384・Maximum"/></a> <a href="./type-challenges/09775-hard-capitalize-nest-object-keys" target="_blank">
+<img src="https://img.shields.io/badge/-9775%E3%83%BBCapitalize%20Nest%20Object%20Keys-de3d37" alt="9775・Capitalize Nest Object Keys"/></a> <a href="./type-challenges/13580-hard-replace-union" target="_blank">
+<img src="https://img.shields.io/badge/-13580%E3%83%BBReplace%20Union-de3d37" alt="13580・Replace Union"/></a> <a href="./type-challenges/14080-hard-fizzbuzz" target="_blank">
+<img src="https://img.shields.io/badge/-14080%E3%83%BBFizzBuzz-de3d37" alt="14080・FizzBuzz"/></a> <a href="./type-challenges/14188-hard-run-length-encoding" target="_blank">
+<img src="https://img.shields.io/badge/-14188%E3%83%BBRun--length%20encoding-de3d37" alt="14188・Run-length encoding"/></a> <a href="./type-challenges/15260-hard-tree-path-array" target="_blank">
+<img src="https://img.shields.io/badge/-15260%E3%83%BBTree%20path%20array-de3d37" alt="15260・Tree path array"/></a><a href="./type-challenges/19458-hard-tree-path-array" target="_blank">
+<img src="https://img.shields.io/badge/-15260%E3%83%BBSnakeCase-de3d37" alt="19458・SnakeCase"/></a>
+
 ---
 
 ## 未完成
@@ -268,27 +283,7 @@ type-challenges 进度：
 
 <img src="https://img.shields.io/badge/-5423%E3%83%BBIntersection-de3d37" alt="5423・Intersection"/></a> <a href="./type-challenges/06141-hard-binary-to-decimal" target="_blank">
 
-<img src="https://img.shields.io/badge/-6141%E3%83%BBBinary%20to%20Decimal-de3d37" alt="6141・Binary to Decimal"/></a> <a href="./type-challenges/07258-hard-object-key-paths" target="_blank">
-
-<img src="https://img.shields.io/badge/-7258%E3%83%BBObject%20Key%20Paths-de3d37" alt="7258・Object Key Paths"/></a> <a href="./type-challenges/08804-hard-two-sum" target="_blank">
-
-<img src="https://img.shields.io/badge/-8804%E3%83%BBTwo%20Sum-de3d37" alt="8804・Two Sum"/></a> <a href="./type-challenges/09155-hard-validdate" target="_blank">
-
-<img src="https://img.shields.io/badge/-9155%E3%83%BBValidDate-de3d37" alt="9155・ValidDate"/></a> <a href="./type-challenges/09160-hard-assign" target="_blank">
-
-<img src="https://img.shields.io/badge/-9160%E3%83%BBAssign-de3d37" alt="9160・Assign"/></a> <a href="./type-challenges/09384-hard-maximum" target="_blank">
-
-<img src="https://img.shields.io/badge/-9384%E3%83%BBMaximum-de3d37" alt="9384・Maximum"/></a> <a href="./type-challenges/09775-hard-capitalize-nest-object-keys" target="_blank">
-
-<img src="https://img.shields.io/badge/-9775%E3%83%BBCapitalize%20Nest%20Object%20Keys-de3d37" alt="9775・Capitalize Nest Object Keys"/></a> <a href="./type-challenges/13580-hard-replace-union" target="_blank">
-
-<img src="https://img.shields.io/badge/-13580%E3%83%BBReplace%20Union-de3d37" alt="13580・Replace Union"/></a> <a href="./type-challenges/14080-hard-fizzbuzz" target="_blank">
-
-<img src="https://img.shields.io/badge/-14080%E3%83%BBFizzBuzz-de3d37" alt="14080・FizzBuzz"/></a> <a href="./type-challenges/14188-hard-run-length-encoding" target="_blank">
-
-<img src="https://img.shields.io/badge/-14188%E3%83%BBRun--length%20encoding-de3d37" alt="14188・Run-length encoding"/></a> <a href="./type-challenges/15260-hard-tree-path-array" target="_blank">
-
-<img src="https://img.shields.io/badge/-15260%E3%83%BBTree%20path%20array-de3d37" alt="15260・Tree path array"/></a> <br><br>
+<img src="https://img.shields.io/badge/-6141%E3%83%BBBinary%20to%20Decimal-de3d37" alt="6141・Binary to Decimal"/></a> <br><br>
 
 <img src="https://img.shields.io/badge/extreme-14-b11b8d" alt="14"/><br><a href="./type-challenges/00005-extreme-readonly-keys" target="_blank">
 
