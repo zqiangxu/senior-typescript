@@ -26,6 +26,8 @@ type T19 = Equal<never, 1 | 2 | 3 | never>; // false
 type T20 = Equal<unknown, unknown>; // true
 type T21 = Equal<never, never>; // true
 type T22 = Equal<{ a: 1 }, any>; // false
+type T23 = Equal<unknown, any>; // false
+type T24 = Equal<never, any>; // false
 
 type T30 = Equal<any, unknown & any>; // true
 type T31 = Equal<any, 1 | any>; // true
