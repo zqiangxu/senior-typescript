@@ -23,7 +23,10 @@
     "checkJs": true,
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src/**/*.ts", "type-challenges/**/*.ts"],
   "exclude": ["type-challenges/**/README.md"]

@@ -1,3 +1,5 @@
+import { Equal } from '@/utils/Equal';
+
 type IncorrectIsNever<T> = T extends never ? true : false;
 
 // never 类型无法直接判断
@@ -24,4 +26,17 @@ type R7 = IsNever<typeof WeakMap>; // false
 type R8 = IsNever<any>; // false
 type R9 = IsNever<unknown>; // false
 
-export { IsNever };
+// 我们还可以使用 utils/Equal 来判断
+type IsEqualNever<T> = Equal<T, never>;
+
+type E1 = IsEqualNever<never>; // true
+type E2 = IsEqualNever<false>; // false
+type E3 = IsEqualNever<number>; // false
+type E4 = IsEqualNever<() => void>; // false
+type E5 = IsEqualNever<typeof Promise>; // false
+type E6 = IsEqualNever<string>; // false
+type E7 = IsEqualNever<typeof WeakMap>; // false
+type E8 = IsEqualNever<any>; // false
+type E9 = IsEqualNever<unknown>; // false
+
+export { IsNever, IsEqualNever };
