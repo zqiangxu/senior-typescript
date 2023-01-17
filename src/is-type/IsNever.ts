@@ -1,5 +1,10 @@
 import { Equal } from '@/utils/Equal';
 
+/**
+ * 判断是否为 Never 类型
+ * @version 1.0.0
+ */
+
 type IncorrectIsNever<T> = T extends never ? true : false;
 
 // never 类型无法直接判断

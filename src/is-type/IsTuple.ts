@@ -1,6 +1,11 @@
 import { IsNever } from './IsNever';
 
 /**
+ * 判断是否为 Tuple 类型
+ * @version 1.0.0
+ */
+
+/**
  * 元组类型允许表示一个已知元素数量和类型的数组，各元素的类型不必相同。
  * 元组与数组在类型判读上的区别是：如果是元组，则 length 返回的是固定的数组大小，数组则返回的是 number
  * @see {@link https://www.tslang.cn/docs/handbook/basic-types.html}

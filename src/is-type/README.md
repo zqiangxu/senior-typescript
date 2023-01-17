@@ -4,3 +4,5 @@
 
 - [IsNever](./IsNever.ts): 判断一个类型是否为 Never 类型
 - [IsTuple](./IsTuple.ts): 判断一个类型是否为 Tuple 类型
+- [IsFunction](./IsFunction.ts): 判断一个类型是否为 Function 类型
+- [IsAny](./IsAny.ts): 判断一个类型是否为 Any 类型
