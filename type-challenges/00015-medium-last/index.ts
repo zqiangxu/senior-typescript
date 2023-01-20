@@ -1,4 +1,4 @@
-type Last<T extends readonly any[]> = T extends [...any[], infer D] ? D : never;
+type Last<T extends any[]> = T extends [...any[], infer D] ? D : never;
 
 type arr1 = ['a', 'b', 'c'];
 type arr2 = [3, 2, 1];
