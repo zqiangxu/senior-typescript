@@ -10,3 +10,4 @@
 - [Last](./Last.ts): 获取元组最后一个元素的类型
 - [Merge](./Merge.ts)：合并一个对象的属性. 鼠标 hover 时可以看到内部完整的属性列表。
 - [TrimLeft](./TrimLeft.ts)：移除字符串左侧的空格。
+- [TrimRight](./TrimRight.ts)：移除字符串右侧的空格。
