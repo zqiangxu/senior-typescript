@@ -24,6 +24,7 @@
 - [TrimLeft](./string/TrimLeft.ts)：移除字符串左侧的空格。
 - [TrimRight](./string/TrimRight.ts)：移除字符串右侧的空格。
 - [StartsWith](./string/StartsWith.ts)：检测字符串是否以指定的前缀开始
+- [EndsWith](./string/EndsWith.ts)：检测字符串是否以指定的后缀结束
 
 ## number
 
