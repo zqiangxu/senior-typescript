@@ -16,8 +16,9 @@
 ## Tuple
 
 - [TupleToUnion](./tuple/TupleToUnion.ts)：Tuple 转 Union 类型
-- [Last](./tuple/Last.ts): 获取元组最后一个元素的类型
-- [First](./tuple/First.ts): 获取元组第一个元素的类型
+- [Last](./tuple/Last.ts): 获取元组最后一个元素
+- [First](./tuple/First.ts): 获取元组第一个元素
+- [Middle](./tuple/Middle.ts): 获取元组中间的元素
 
 ## string
 
