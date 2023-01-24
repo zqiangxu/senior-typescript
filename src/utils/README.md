@@ -3,6 +3,7 @@
 ## 通用
 
 - [Equal](./Equal.ts): 比较两个类型是否相同
+- [NotEqual](./NotEqual.ts): 比较两个类型是否不同
 
 ## Interface | Type
 
