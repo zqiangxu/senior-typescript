@@ -29,6 +29,7 @@
 - [EndsWith](./string/EndsWith.ts): 检测字符串是否以指定的后缀结束
 - [StringToTuple](./string/StringToTuple.ts): 将字符串转换为元组
 - [LengthOfString](./string/LengthOfString.ts): 获取字符串的长度
+- [IsUpperCase](./string/IsUpperCase.ts): 是否为大写字母
 
 ## number
 
