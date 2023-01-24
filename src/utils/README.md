@@ -28,6 +28,7 @@
 - [StartsWith](./string/StartsWith.ts): 检测字符串是否以指定的前缀开始
 - [EndsWith](./string/EndsWith.ts): 检测字符串是否以指定的后缀结束
 - [StringToTuple](./string/StringToTuple.ts): 将字符串转换为元组
+- [LengthOfString](./string/LengthOfString.ts): 获取字符串的长度
 
 ## number
 
