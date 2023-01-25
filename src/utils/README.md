@@ -5,6 +5,7 @@
 - [Equal](./Equal.ts): 比较两个类型是否相同
 - [NotEqual](./NotEqual.ts): 比较两个类型是否不同
 - [IsTrue](./IsTrue.ts): 当前类型是否为 true
+- [IsFalse](./IsFalse.ts): 当前类型是否为 false
 
 ## Interface | Type
 
@@ -32,6 +33,7 @@
 - [StringToTuple](./string/StringToTuple.ts): 将字符串转换为元组
 - [LengthOfString](./string/LengthOfString.ts): 获取字符串的长度
 - [IsUpperCase](./string/IsUpperCase.ts): 是否为大写字母
+- [KebabCase](./string/KebabCase.ts): 驼峰式转短横线隔开式
 
 ## number
 

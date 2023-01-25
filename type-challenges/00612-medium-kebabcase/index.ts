@@ -16,7 +16,7 @@ type BestKebabCase<T extends string> = T extends `${infer D}${infer F}`
     : `${Lowercase<D>}-${BestKebabCase<F>}`
   : T;
 
-type A = Uncapitalize<'ABC12'>;
+type A = BestKebabCase<'ABC12E'>;
 
 type Result3 = BestKebabCase<'FooBarBaz'>;
 type Result4 = BestKebabCase<'A12'>;
