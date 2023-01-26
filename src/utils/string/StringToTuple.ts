@@ -20,5 +20,8 @@ type R3 = StringToTuple<''>; // []
 type R4 = StringToTuple<never>; // []
 type R5 = StringToTuple<any>; // []
 type R6 = StringToTuple<string>; // []
+type R7 = StringToTuple<'string' | 'union'>; // ["s", "t", "r", "i", "n", "g"] | ["u", "n", "i", "o", "n"]
+type R8 = StringToTuple<'string' | 'union' | never>; //  ["s", "t", "r", "i", "n", "g"] | ["u", "n", "i", "o", "n"]
+type R9 = StringToTuple<'string' | 'union' | any>; // [] 
 
 export { StringToTuple };

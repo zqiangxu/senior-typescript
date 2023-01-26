@@ -13,5 +13,8 @@ type R3 = StringToUnion<''>; // never
 type R4 = StringToUnion<never>; // never
 type R5 = StringToUnion<any>; // never
 type R6 = StringToUnion<string>; // never
+type R7 = StringToUnion<'string' | 'union'>; // "s" | "t" | "r" | "i" | "n" | "g" | "o" | "u"
+type R8 = StringToUnion<'string' | 'union' | never>; //  "s" | "t" | "r" | "i" | "n" | "g" | "o" | "u"
+type R9 = StringToUnion<'string' | 'union' | any>; // never 
 
 export { StringToUnion };
