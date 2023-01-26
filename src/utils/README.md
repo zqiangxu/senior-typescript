@@ -32,6 +32,7 @@
 - [StartsWith](./string/StartsWith.ts): 检测字符串是否以指定的前缀开始
 - [EndsWith](./string/EndsWith.ts): 检测字符串是否以指定的后缀结束
 - [StringToTuple](./string/StringToTuple.ts): 将字符串转换为元组
+- [StringToUnion](./string/StringToUnion.ts): 将字符串转换为联合类型
 - [LengthOfString](./string/LengthOfString.ts): 获取字符串的长度
 - [IsUpperCase](./string/IsUpperCase.ts): 是否为大写字母
 - [KebabCase](./string/KebabCase.ts): 驼峰式转短横线隔开式
