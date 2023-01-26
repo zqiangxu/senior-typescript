@@ -4,8 +4,6 @@
 
 - [Equal](./Equal.ts): 比较两个类型是否相同
 - [NotEqual](./NotEqual.ts): 比较两个类型是否不同
-- [IsTrue](./IsTrue.ts): 当前类型是否为 true
-- [IsFalse](./IsFalse.ts): 当前类型是否为 false
 
 ## Interface | Type
 
