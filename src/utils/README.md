@@ -21,6 +21,7 @@
 - [First](./tuple/First.ts): 获取元组第一个元素
 - [Middle](./tuple/Middle.ts): 获取元组中间的元素
 - [Pop](./tuple/Pop.ts): 移除数组的最后一个元素
+- [Shift](./tuple/Shift.ts): 移除数组的第一个元素
 - [Includes](./tuple/Includes.ts): 判断元组中是否存在某个元素
 
 ## string

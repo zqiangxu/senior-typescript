@@ -1,4 +1,4 @@
-type Shift<T extends readonly any[]> = T extends [infer First, ...infer F] ? F : [];
+type Shift<T extends readonly unknown[]> = T extends readonly [unknown, ...infer Rest] ? Rest : never;
 
 type Result = Shift<[3, 2, 1]>;
 
