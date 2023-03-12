@@ -1,6 +1,6 @@
 # senior-typescript
 
-高级 TypeScript 学习。该项目在基于 [type-challenges](https://github.com/type-challenges/type-challenges) 练习的基础上收集了一些常用的 TS 体操，同时也包含了一些解题思路以及学习笔记。
+高级 TypeScript。该项目在基于 [type-challenges](https://github.com/type-challenges/type-challenges) 练习的基础上收集了一些常用的 TS 体操，同时也包含了一些解题思路以及学习笔记。
 
 ### TypeScript 大挑战
 
